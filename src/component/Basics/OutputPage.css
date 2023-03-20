@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.border{
+  border-style: solid;
+  border-width: 20px;
+  border-color:  #7f56d9;
+  margin: 5vh;
+  height: 65vh;
+  width: 208.5vh;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
