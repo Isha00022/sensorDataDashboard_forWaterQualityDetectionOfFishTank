@@ -1,0 +1,55 @@
+ROC AUC couldn't be calculated for LGBMClassifier
+multi_class must be in ('ovo', 'ovr')
+                               Accuracy  Balanced Accuracy ROC AUC  F1 Score  \
+Model                                                                          
+LGBMClassifier                     0.99               0.98    None      0.99   
+XGBClassifier                      0.98               0.97    None      0.98   
+RandomForestClassifier             0.98               0.95    None      0.98   
+ExtraTreesClassifier               0.98               0.95    None      0.98   
+BaggingClassifier                  0.98               0.95    None      0.98   
+DecisionTreeClassifier             0.97               0.95    None      0.97   
+ExtraTreeClassifier                0.96               0.93    None      0.96   
+KNeighborsClassifier               0.96               0.92    None      0.96   
+AdaBoostClassifier                 0.82               0.73    None      0.83   
+QuadraticDiscriminantAnalysis      0.58               0.67    None      0.50   
+SVC                                0.86               0.66    None      0.82   
+LinearDiscriminantAnalysis         0.71               0.54    None      0.66   
+RidgeClassifier                    0.70               0.54    None      0.66   
+RidgeClassifierCV                  0.70               0.54    None      0.66   
+CalibratedClassifierCV             0.70               0.53    None      0.66   
+SGDClassifier                      0.69               0.52    None      0.64   
+LinearSVC                          0.67               0.51    None      0.63   
+NearestCentroid                    0.44               0.50    None      0.50   
+LogisticRegression                 0.65               0.49    None      0.61   
+PassiveAggressiveClassifier        0.60               0.46    None      0.55   
+BernoulliNB                        0.59               0.45    None      0.55   
+Perceptron                         0.60               0.45    None      0.53   
+GaussianNB                         0.49               0.42    None      0.37   
+DummyClassifier                    0.45               0.33    None      0.28   
+
+                               Time Taken  
+Model                                      
+LGBMClassifier                       1.65  
+XGBClassifier                        8.45  
+RandomForestClassifier              14.84  
+ExtraTreesClassifier                10.56  
+BaggingClassifier                    3.49  
+DecisionTreeClassifier               0.61  
+ExtraTreeClassifier                  0.19  
+KNeighborsClassifier                20.81  
+AdaBoostClassifier                   7.32  
+QuadraticDiscriminantAnalysis        0.18  
+SVC                               1205.74  
+LinearDiscriminantAnalysis           0.26  
+RidgeClassifier                      0.17  
+RidgeClassifierCV                    0.23  
+CalibratedClassifierCV             261.62  
+SGDClassifier                        0.97  
+LinearSVC                           72.83  
+NearestCentroid                      0.12  
+LogisticRegression                   2.62  
+PassiveAggressiveClassifier          0.87  
+BernoulliNB                          0.19  
+Perceptron                           0.83  
+GaussianNB                           0.14  
+DummyClassifier                      0.09  
